@@ -1,0 +1,37 @@
+{
+  "name": "edifice",
+  "version": "0.1.0",
+  "description": "A simple core for your modular app",
+  "main": "lib/edifice.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanmacinnes/edifice.git"
+  },
+  "keywords": [
+    "core",
+    "facades",
+    "modular",
+    "application security"
+  ],
+  "author": "Nathan MacInnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanmacinnes/edifice/issues"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "grunt": "~0.4.4",
+    "jshint": "~2.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-mocha-test": "~0.10.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "pretendr": "~0.5.2",
+    "injectr": "~0.5.1"
+  },
+  "dependencies": {
+    "edifice-facade": "~0.2.0"
+  }
+}
